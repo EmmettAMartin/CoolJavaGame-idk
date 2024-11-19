@@ -22,9 +22,7 @@ public class Enemy {
     return y_diff;
   }
   
-  public int[] enemyDestination(
-    int playerX, int playerY, int enemyX, int enemyY
-    ) {
+  public int[] enemyDestination(int playerX, int playerY, int enemyX, int enemyY) {
     enemyX += playerDirectionX(playerX, enemyX);
     enemyY += playerDirectionY(playerY, enemyY);
     int enemyNewPosition[] = {enemyX, enemyY};
