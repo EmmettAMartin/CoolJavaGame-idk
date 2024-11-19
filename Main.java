@@ -11,7 +11,17 @@
  */
 
 public class Main {
+  static int map[][] = {{},{},{},{},{},{},{},{},{},{}};
+  static int sizeOfMap = 10;
+  static int[][] assembleMap(int givenMap[][]) {
+    for (int i = 0; i < sizeOfMap; i++) {
+      for (int j = 0; j < sizeOfMap; j++) {
+        givenMap[i][j] = 0;
+      }
+    }
+    return givenMap;
+  }
   public static void main(String[] args) {
-    System.out.println("Lorem ipsum dolor sit");
+    map = assembleMap(map);
   }
 }
