@@ -40,5 +40,4 @@ public class Map {
     givenMap[givenY][givenX] = value;
     return givenMap;
   }
-
 }
