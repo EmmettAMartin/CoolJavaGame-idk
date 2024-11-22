@@ -7,7 +7,8 @@ public class WindowRenderer extends JFrame {
   }
 
   void initUI() {
-    add(new GameBoard());
+    add(new GameBoard2134());
+    // pack();
     setSize(1000, 750);
     setTitle("Testing Game");
     setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
